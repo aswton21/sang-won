@@ -23,7 +23,7 @@ let timer;
 function start_clock(){
     sec = 5;
     left_time.innerHTML = sec;
-
+    left_carrot.innerHTML = cnt;
     timer = setInterval(() =>{
         left_time.innerHTML = sec--;
         if (sec === -1){
